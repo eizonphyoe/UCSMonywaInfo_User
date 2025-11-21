@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="@dimen/layout_margin">
+
+        <Button
+            android:id="@+id/monday_btn"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:background="@drawable/button_round_corner"
+            android:text="MON"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/tuesday_btn"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:background="@drawable/button_round_corner"
+            android:text="TUE"
+            app:layout_constraintLeft_toRightOf="@+id/monday_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/wednesday_btn"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:background="@drawable/button_round_corner"
+            android:text="WED"
+            app:layout_constraintLeft_toRightOf="@+id/tuesday_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/thursday_btn"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:background="@drawable/button_round_corner"
+            android:text="THU"
+            app:layout_constraintLeft_toRightOf="@+id/wednesday_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/friday_btn"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:background="@drawable/button_round_corner"
+            android:text="FRI"
+            app:layout_constraintLeft_toRightOf="@+id/thursday_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/colorAccent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_margin">
+    </FrameLayout>
+
+
+</LinearLayout>

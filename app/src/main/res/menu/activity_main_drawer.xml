@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_timetable"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_noticeboard"
+            android:icon="@drawable/ic_noticeboard"
+            android:title="@string/menu_noticeboard" />
+        <item
+            android:id="@+id/nav_examresult"
+            android:icon="@drawable/ic_result"
+            android:title="@string/menu_examresult" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/ic_activity"
+            android:title="@string/menu_activities" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/menu_favourite" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/menu_about" />
+    </group>
+
+</menu>

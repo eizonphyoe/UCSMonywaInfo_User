@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467641610894",
+    "firebase_url": "https://ucsmonywa-f2025.firebaseio.com",
+    "project_id": "ucsmonywa-f2025",
+    "storage_bucket": "ucsmonywa-f2025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467641610894:android:5ed620882221896c",
+        "android_client_info": {
+          "package_name": "com.admin.ucsmonywa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467641610894-8o6jme3up2corcu3iuf71grjrn8jjp79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.admin.ucsmonywa",
+            "certificate_hash": "a9f5b932e4221b25ce07ab1cb1ef01e2a05b8d06"
+          }
+        },
+        {
+          "client_id": "467641610894-vll24v1jvi62gfvehjkmurjcv8v5imib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC58dqzh9VB-T-nmK0OFoi9fKOR50P6XdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467641610894-vll24v1jvi62gfvehjkmurjcv8v5imib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

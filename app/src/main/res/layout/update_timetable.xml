@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:textColorHint="@color/colorPrimary"
+        app:hintTextAppearance="@style/HintText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_subject"
+            android:hint="Subject"
+            android:textColor="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:textColorHint="@color/colorPrimary"
+        app:hintTextAppearance="@style/HintText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_teacher"
+            android:hint="Teacher"
+            android:textColor="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        app:hintTextAppearance="@style/HintText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_duration"
+            android:hint="Duration"
+            android:textColor="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_btn"
+        android:text="Save"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"/>
+
+
+
+</LinearLayout>

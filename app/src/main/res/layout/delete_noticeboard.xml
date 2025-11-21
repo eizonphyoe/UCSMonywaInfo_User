@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/delete_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:hint="Title"/>
+    <EditText
+        android:id="@+id/delete_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:hint="Detail"/>
+    <ImageView
+        android:id="@+id/delete_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"/>
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@drawable/button_round_corner"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:textColor="@color/colorAccent" />
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:background="@drawable/button_round_corner"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

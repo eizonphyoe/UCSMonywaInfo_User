@@ -1,0 +1,20 @@
+# App-level build directory
+/build
+
+# Release artifacts
+*.apk
+*.aab
+
+# Generated files specific to this module
+/release
+
+# Test results
+/test-results
+/androidTest-results
+
+# Captures
+/captures
+
+# Local libs (if any external JARs should be excluded)
+# Uncomment if needed:
+# /libs/*.jar
