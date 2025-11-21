@@ -742,7 +742,31 @@ When reporting bugs, please include:
 
 ## 📱 Screenshots
 
-*Coming Soon - Add screenshots of the application in action*
+### Application Overview
+
+<div align="center">
+
+#### Main Navigation & Timetable Selection
+<img src="screenshots/Screenshot_1763755606.png" width="250" alt="Main Screen"/> <img src="screenshots/Screenshot_1763755608.png" width="250" alt="Navigation Drawer"/> <img src="screenshots/Screenshot_1763755611.png" width="250" alt="Timetable Selection"/>
+
+#### Timetable Display & Weekly Schedule
+<img src="screenshots/Screenshot_1763755614.png" width="250" alt="Timetable View"/> <img src="screenshots/Screenshot_1763755617.png" width="250" alt="Daily Schedule"/> <img src="screenshots/Screenshot_1763755621.png" width="250" alt="Class Details"/>
+
+#### Notice Board & Activities
+<img src="screenshots/Screenshot_1763755626.png" width="250" alt="Notice Board"/> <img src="screenshots/Screenshot_1763755630.png" width="250" alt="Notice Details"/> <img src="screenshots/Screenshot_1763755639.png" width="250" alt="Activities"/>
+
+#### Additional Features
+<img src="screenshots/Screenshot_1763755642.png" width="250" alt="Exam Results"/> <img src="screenshots/Screenshot_1763755657.png" width="250" alt="About Section"/>
+
+</div>
+
+### Key Features Demonstrated:
+- ✅ **Intuitive Navigation**: Material Design navigation drawer
+- ✅ **Timetable Management**: Year and section selection with weekly schedule view
+- ✅ **Notice Board**: Firebase-powered real-time notices with image support
+- ✅ **Campus Activities**: Event tracking and information display
+- ✅ **Exam Results**: Dedicated section for result viewing
+- ✅ **Clean UI**: Modern Material Design following Android best practices
 
 ---
 
